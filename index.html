@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="index.css">
+
+<h1>Welcome to the Programming Language creator!</h1>
+
+<div id="in-out" style="visibility:hidden">
+  <textarea id='input' placeholder="Input"></textarea>
+  
+  <textarea id='output' readonly placeholder="Output"></textarea>
+  
+  <br>
+  
+  <button id="compile" style="background-color:lightgreen;font-size:15px" onclick="compile()">Compile</button>
+</div>
+
+<div id="questions" style="visibility:visable">
+  
+  <h3>Please fill out all of these text fields and don't leave them blank.</h3>
+  
+  <textarea id="if-q" placeholder="Type what you want to replace 'if' with"></textarea>
+  
+  <textarea id="else-q" placeholder="Type what you want to replace 'else' with"></textarea>
+  
+  <textarea id="elseif-q" placeholder="Type what you want to replace 'elseif' with"></textarea>
+  
+  <textarea id="while-q" placeholder="Type what you want to replace 'while' with"></textarea>
+  
+  <textarea id="var-q" placeholder="Type what you want to replace 'var' with"></textarea>
+  
+  <textarea id="function-q" placeholder="Type what you want to replace 'function' with"></textarea>
+  
+  <textarea id="const-q" placeholder="Type what you want to replace 'const' with"></textarea>
+  
+  <textarea id="let-q" placeholder="Type what you want to replace 'let' with"></textarea>
+  
+  <textarea id="return-q" placeholder="Type what you want to replace 'return' with"></textarea>
+  
+  <textarea id="class-q" placeholder="Type what you want to replace 'class' with"></textarea>
+  
+  <br>
+  <button type="submit" id="Submit Questions" onclick="submit()">Submit</button>
+  
+  <button type="submit" id="Skip" onclick="skip()">Skip</button>
+  
+</div>
+
+<script type="text/javascript" src="index.js"></script>
